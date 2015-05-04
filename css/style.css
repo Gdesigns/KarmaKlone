@@ -508,20 +508,109 @@ body {
 }
 .introduction h3 {
   font-size: 1.5rem;
-  margin-top: .65rem;
+  margin: .65rem 0 0 0;
   font-weight: 300;
 }
-button {
+.buttons {
+  color: #fff;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.big-button {
   display: block;
   margin: 0 auto;
   width: 9.688rem;
   padding: 1rem 1.5rem;
   background: #F15B2A;
-  color: #fff;
+  text-shadow: none;
   border: none;
   border-radius: 4px;
   font-size: 1.125rem;
 }
-button:hover {
+.big-button:hover {
   background: #d9400e;
+}
+
+/* CASES */
+
+.cases {
+  padding-bottom: 5rem;
+}
+.cases .content {
+  margin-top: 7.5rem;
+  text-align: center;
+  color: #1d1e21;
+}
+.cases h2 {
+  font-size: 2.75rem;
+  margin: 1.625rem 0 3.125rem;
+  font-weight: 300;
+}
+
+.devices {
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.devices li {
+  display: inline-block;
+  width: 33.333333%;
+}
+.devices h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 2.5rem 0 1.875rem;
+}
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+  padding-bottom: 9.375rem;
+}
+
+footer hr {
+  border: 0;
+  border: 1px solid #ebebeb;
+  margin: 1.313rem;
+}
+
+footer h5 {
+  font-size: 1.05rem;
+  font-weight: 400;
+  color: #1d1e21;
+  margin: 0;
+  padding: 0;
+}
+
+.social {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+}
+.social > li {
+  display: inline-block;
+  margin: 1.25rem .5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 1.25rem;
+  border: 1px solid #ebebeb;
+  padding: 0.625rem 0;
+  text-align: center;
+}
+.social > li a {
+  color: inherit;
+}
+.social .twitter {
+  color: #55acee;
+}
+.social .facebook {
+  color: #4c66a4;
+}
+.social .instagram {
+  color: #3f729b;
+}
+footer span {
+  font-weight: 300;
 }
