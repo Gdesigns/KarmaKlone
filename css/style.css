@@ -1,3 +1,10 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**
@@ -424,4 +431,97 @@ table {
 td,
 th {
   padding: 0;
+}
+
+/* PAGE STYLES */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  font-weight: 400;
+  color: #838994;
+  letter-spacing: 0.03em;
+}
+
+/* MAIN CONTENT STYLING */
+
+.content {
+  width: 60%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* HEADER ELEMENTS */
+
+.top-navigation {
+  background: #fff;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  z-index: 9999;
+}
+.top-navigation > .content {
+  height: 4.375rem;
+}
+.top-navigation .logo {
+  height: 4.375rem;
+}
+.top-navigation .links {
+    float: right;
+    margin-top: 1.5rem;
+    text-align: right;
+    font-weight: 400;
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 1.5rem;
+}
+.top-navigation .links .active {
+  color: #4c5058;
+  font-weight: 500;
+}
+.top-navigation .links li a {
+  color: #838994;
+  text-decoration: none;
+}
+.top-navigation .links li a:hover {
+  color: #F15B2A;
+}
+
+/* INTRODUCTION */
+
+.introduction {
+  background: url(../images/first-background.jpg);
+  background-position: 0 bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 46rem;
+  overflow: auto;
+  color: #fff;
+  text-align: center;
+}
+.introduction h1 {
+  font-size: 3.125rem;
+  margin: 17rem 0 0 0;
+  font-weight: 300;
+}
+.introduction h3 {
+  font-size: 1.5rem;
+  margin-top: .65rem;
+  font-weight: 300;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  width: 9.688rem;
+  padding: 1rem 1.5rem;
+  background: #F15B2A;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.125rem;
+}
+button:hover {
+  background: #d9400e;
 }
